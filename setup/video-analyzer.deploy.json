@@ -127,7 +127,7 @@
                         {
                             "type": "Microsoft.Resources/deploymentScripts",
                             "dependsOn": [ 
-                                "[concat(variables('storageAccountName'), '/Microsoft.Authorization/', variables('roleAssignmentName'))]" 
+                                "[variables('storageAccountName')]" 
                                 ],
                             "apiVersion": "2020-10-01",
                             "name": "managed-identity-role-assignmentComplete",
