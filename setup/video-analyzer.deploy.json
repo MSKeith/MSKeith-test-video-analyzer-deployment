@@ -142,7 +142,8 @@
                                 "timeout": "PT30M",
                                 "cleanupPreference": "Always",
                                 "retentionInterval": "PT1H"
-                            }
+                            },
+                            "tags": "[parameters('resourceTags')]"
                         }
                     ],
                     "outputs": {}
