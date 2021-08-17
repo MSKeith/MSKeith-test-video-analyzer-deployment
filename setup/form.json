@@ -90,17 +90,7 @@
             }
         ],
         
-        "tags": [{
 
-            "name": "tags",
-
-                "type": "Microsoft.Common.TextBox",
-
-                "label": "Sample scenario"
-
-        }
-
-        ],
         
         "steps": [
             {
@@ -216,6 +206,27 @@
                         "visible": "[contains(basics('useExistingEdgeDevice'),'existing')]"
                     }
                 ]
+            },
+            {
+
+            "name": "edgeDeviceSettings",
+
+                "label": "Edge Device Settings",
+
+                "elements": [
+
+                    {
+
+                        "name": "testtags",
+
+                            "type": "Microsoft.Common.TextBox",
+
+                            "label": "Sample scenario"
+
+                    }
+
+                ]
+
             }
         ],
         "outputs": {
