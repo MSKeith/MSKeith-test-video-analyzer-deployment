@@ -90,7 +90,9 @@
             }
         ],
         
-        "resourceTags": { "type": "object", "defaultValue": { "Environment": "Dev", "Project": "Tutorial" } }
+        "resourceTags": [
+            { "type": "object", "defaultValue": { "Environment": "Dev", "Project": "Tutorial" } }
+            ],
         
         "steps": [
             {
