@@ -89,6 +89,9 @@
                 }
             }
         ],
+        
+        "resourceTags": { "type": "object", "defaultValue": { "Environment": "Dev", "Project": "Tutorial" } }
+        
         "steps": [
             {
                 "name": "edgeDeviceSettings",
