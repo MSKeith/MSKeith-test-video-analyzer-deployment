@@ -90,9 +90,17 @@
             }
         ],
         
-        "resourceTags": [
-            { "type": "object", "defaultValue": { "Environment": "Dev", "Project": "Tutorial" } }
-            ],
+        "tags": [{
+
+            "name": "tags",
+
+                "type": "Microsoft.Common.TextBox",
+
+                "label": "Sample scenario"
+
+        }
+
+        ],
         
         "steps": [
             {
