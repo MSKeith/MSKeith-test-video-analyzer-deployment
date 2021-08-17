@@ -209,9 +209,9 @@
             },
             {
 
-            "name": "edgeDeviceSettings",
+            "name": "tags",
 
-                "label": "Edge Device Settings",
+                "label": "tags",
 
                 "elements": [
 
