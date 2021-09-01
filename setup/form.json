@@ -206,27 +206,6 @@
                         "visible": "[contains(basics('useExistingEdgeDevice'),'existing')]"
                     }
                 ]
-            },
-            {
-
-            "name": "tags",
-
-                "label": "tags",
-
-                "elements": [
-
-                    {
-
-                        "name": "testtags",
-
-                            "type": "Microsoft.Common.TextBox",
-
-                            "label": "Sample scenario"
-
-                    }
-
-                ]
-
             }
         ],
         "outputs": {
